@@ -1,0 +1,15 @@
+:root {
+  --bg-color: #F5F5F5;
+  --white: #FFF;
+  --text-color: #464646;
+  --subtext-color: #A2A2A2;
+  --button-color: #2A7AE4;
+  --font: 'Raleway', sans-serif;
+}
+
+
+body {
+  background: var(--bg-color);
+  font-family: var(--font);
+  font-weight: 400;
+}
