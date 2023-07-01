@@ -119,6 +119,12 @@ footer .box {
   font-weight: 700;
 }
 
-.developed_text span {
+.developed_text a {
   color: #633BBC;
+  text-decoration: none;
+  transition: .3s;
+}
+
+.developed_text a:hover {
+  color: #4e2e92;
 }
