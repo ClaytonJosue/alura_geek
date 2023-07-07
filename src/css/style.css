@@ -1,6 +1,10 @@
+/* Login */
 @import "./login/header.css";
 @import "./login/login_form.css";
 @import "./login/footer.css";
+
+/* Home */
+@import "./home/button-login.css";
 
 :root {
   --bg-color: #F5F5F5;
