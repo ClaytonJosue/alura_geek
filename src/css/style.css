@@ -5,6 +5,7 @@
 
 /* Home */
 @import "./home/button-login.css";
+@import "./home/sale.css";
 
 :root {
   --bg-color: #F5F5F5;
