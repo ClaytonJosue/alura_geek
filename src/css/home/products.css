@@ -1,0 +1,50 @@
+.products {
+  padding: 0 3rem;
+}
+
+.starwars, .consoles {
+  margin-bottom: 5rem;
+}
+
+.product_title {
+  font-size: 32px;
+  color: var(--text-color);
+  font-weight: 700;
+  margin-bottom: 15px;
+  line-height: normal;
+}
+
+.products--list {
+  display: flex;
+  gap: 2rem;
+}
+
+.products--item img {
+  width: 176px;
+}
+
+.products--item .products--name {
+  color: var(--text-color);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.products--item .products--price {
+  color: var(--text-color);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: normal;
+  margin: 10px 0;
+}
+
+.products--item .products--link {
+  text-decoration: none;
+  color: var(--button-color);
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.products--item .products--link:hover {
+  text-decoration: underline;
+}
