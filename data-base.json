@@ -1,49 +1,47 @@
 {
-  "starWars": [
+  "product": [
     {
       "id": 1,
       "image": "./src/assets/img/sw-01.png",
       "name": "Caneca do Stormtrooper",
       "price": 60.00,
-      "category": "Star Wars"
+      "category": "StarWars"
     },
     {
       "id": 2,
       "image": "./src/assets/img/sw-02.png",
       "name": "Boneco do Darth Vader",
       "price": 100.00,
-      "category": "Star Wars"
+      "category": "StarWars"
     },
     {
       "id": 3,
       "image": "./src/assets/img/sw-03.png",
       "name": "Boneco do Yoda",
       "price": 180.00,
-      "category": "Star Wars"
+      "category": "StarWars"
     },
     {
       "id": 4,
       "image": "./src/assets/img/sw-04.png",
       "name": "Boneco do Stormtrooper",
       "price": 280.00,
-      "category": "Star Wars"
+      "category": "StarWars"
     },
     {
       "id": 5,
       "image": "./src/assets/img/sw-05.png",
       "name": "Boneco do Baby Yoda",
       "price": 200.00,
-      "category": "Star Wars"
+      "category": "StarWars"
     },
     {
       "id": 6,
       "image": "./src/assets/img/sw-06.png",
       "name": "Boneco do Kylo Ren",
       "price": 180.00,
-      "category": "Star Wars"
-    }
-  ],
-  "consoles": [
+      "category": "StarWars"
+    },
     {
       "id": 7,
       "image": "./src/assets/img/console-01.png",
