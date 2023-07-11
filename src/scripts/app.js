@@ -1,15 +1,10 @@
+import { getProducts } from "./data.js";
+
 const starWarsListContainer = document.querySelector(".products--list-starwars");
 const consoleListContainer = document.querySelector(".products--list-console");
 
-const db =  async(category) => {
-  return await fetch(`http://localhost:3000/product?category=${category}`)
-          .then(response => response.json())
-          .catch(err => console.error(err))
-}
-
 // Star Wars
-
-db("StarWars").then(data => {
+getProducts("StarWars").then(data => {
   let list = "";
   if (data.length <= 0) {
     list = `<li>No results found</li>`
@@ -29,8 +24,7 @@ db("StarWars").then(data => {
 });
 
 // Consoles
-
-db("Consoles").then(data => {
+getProducts("Consoles").then(data => {
   let list = "";
   if (data.length <= 0) {
     list = `<li>No results found</li>`
