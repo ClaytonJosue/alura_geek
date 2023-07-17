@@ -11,6 +11,9 @@
 /* Add Product */
 @import "./add_product/form.css";
 
+/* All Products */
+@import "./all_products/products.css";
+
 :root {
   --bg-color: #F5F5F5;
   --white: #FFF;
