@@ -1,0 +1,105 @@
+main .container {
+  margin: 3rem 0;
+}
+
+.add_product--content {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.add_product--content .form_content {
+  display: flex;
+  flex-direction: column;
+}
+
+form .form__title {
+  width: 580px;
+  color: var(--text-color);
+  font-weight: 700;
+  font-size: 32px;
+  line-height: normal;
+}
+
+.form__image--group,
+.form__category--group,
+.form__product--group,
+.form__product_price--group {
+  position: relative;
+}
+
+.form__image--group input,
+.form__category--group input,
+.form__product--group input,
+.form__product_price--group input {
+  width: 560px;
+  height: 40px;
+  padding: 12px 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: var(--white);
+  box-shadow: 1px 3px 5px var(--preto-30);
+
+  font-family: var(--font);
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--text-color);
+  line-height: 20px;
+}
+
+.form__image--group span,
+.form__category--group span,
+.form__product--group span,
+.form__product_price--group span {
+  position: absolute;
+  top: 25px;
+  left: 10px;
+  transition: .2s;
+
+  
+  font-size: 12px;
+  color: var(--subtext-color);
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.form__image--group input:focus ~ span,
+.form__category--group input:focus ~ span,
+.form__product--group input:focus ~ span,
+.form__product_price--group input:focus ~ span,
+.form__image--group input:valid ~ span,
+.form__category--group input:valid ~ span,
+.form__product--group input:valid ~ span,
+.form__product_price--group input:valid ~ span {
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  transition: .2s;
+}
+
+.form__textarea {
+  resize: none;
+  width: 560px;
+  height: 80px;
+  padding: 12px 10px;
+
+  border: none;
+  border-radius: 4px;
+  background-color: var(--white);
+  box-shadow: 1px 3px 5px var(--preto-30);
+
+  font-family: var(--font);
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--text-color);
+  line-height: 20px;
+}
+
+.form__textarea::placeholder {
+  font-size: 16px;
+  color: var(--subtext-color);
+  font-family: var(--font);
+}
+
+.add_product--content .form_content .form__button {
+  width: 580px;
+}

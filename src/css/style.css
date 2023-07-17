@@ -8,6 +8,9 @@
 @import "./home/sale.css";
 @import "./home/products.css";
 
+/* Add Product */
+@import "./add_product/form.css";
+
 :root {
   --bg-color: #F5F5F5;
   --white: #FFF;
@@ -16,6 +19,7 @@
   --button-color: #2A7AE4;
   --button-color-hover: #1c5db3;
   --footer-color: #EAF2FD;
+  --preto-30: #C8C8C8;
   --font: 'Raleway', sans-serif;
 }
 

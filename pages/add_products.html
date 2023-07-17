@@ -29,22 +29,22 @@
         <form class="form_content">
           <h1 class="form__title">Adicionar novo produto</h1>
           <div class="form__image--group">
-            <input type="text">
+            <input type="text" required>
             <span>URL da imagem</span>
           </div>
           <div class="form__category--group">
-            <input type="text">
+            <input type="text" required>
             <span>Categoria</span>
           </div>
           <div class="form__product--group">
-            <input type="text">
+            <input type="text" required>
             <span>Nome do produto</span>
           </div>
           <div class="form__product_price--group">
-            <input type="number">
+            <input type="number" required>
             <span>Preço do produto</span>
           </div>
-          <textarea placeholder="Descrição do produto" cols="30" rows="10"></textarea>
+          <textarea class="form__textarea" placeholder="Descrição do produto" cols="30" rows="10"></textarea>
           <button class="form__button">Adicionar Produto</button>
         </form>
       </div>
