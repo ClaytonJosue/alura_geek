@@ -20,5 +20,25 @@
       </div>
     </div>
   </header>
+  <main>
+    <section class="products__content">
+      <div class="products__header">
+        <h1 class="products__header--title">Todos os Produtos</h1>
+        <a href="./add_products.html" class="products__header--link">Adicionar produto</a>
+      </div>
+      <div class="products">
+        <ul class="products__list">
+          <li class="products--item" key="${item.id}">
+            <img src="../src/assets/img/sw-01.png" alt="Produto um" class="products--image">
+            <p class="products--name">Caneca do Stormtrooper</p>
+            <p class="products--price">R$ <span>60</span>,00</p>
+            <a href="#" class="products--link">Ver produto</a>
+            <img src="../src/assets/icons/delete-icon.svg" alt="Delete Icon">
+            <img src="../src/assets/icons/edit-icon.svg" alt="Edit Icon">
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
